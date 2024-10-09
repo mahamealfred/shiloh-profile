@@ -1,0 +1,91 @@
+/* Profile container */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f8ff;
+  padding: 20px;
+  min-height: 80vh;
+}
+
+/* Header styling */
+.profile-header {
+  width: 100%;
+  background-color: #ff9a9e;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.profile-header h1 {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Profile card */
+.profile-card {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.profile-image {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-age {
+  font-size: 18px;
+  color: #555;
+}
+
+/* About section */
+.profile-about {
+  text-align: center;
+  max-width: 600px;
+  margin-top: 20px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-about h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 22px;
+  color: #444;
+}
+
+.profile-about p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Footer styling */
+.profile-footer {
+  width: 100%;
+  background-color: #ff9a9e;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+}
+
+.profile-footer p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+}
